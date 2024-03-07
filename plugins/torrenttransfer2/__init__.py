@@ -82,7 +82,7 @@ class TorrentTransfer2(_PluginBase):
     def post_msg(self,mtype,title,text):
         self.post_message(
                     mtype=mtype,
-                    title=f"自动转种器2->{title}",
+                    title=f"{title}-自动转种器2",
                     text=f"自动转种器2->{text}",
                 )
 
